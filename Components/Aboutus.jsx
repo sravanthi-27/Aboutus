@@ -75,9 +75,10 @@ export default function AboutMorSelv() {
           
           {/* Story copy */}
           <p className="w-full max-w-[1280px] text-center text-[24px] font-normal leading-[36px] mt-6 px-4">
-            Morselv was created with one mission — to make women's wellness simple, accessible, and truly holistic. <br />
+            Morselv was created with one mission — to make women’s wellness simple, accessible, and truly holistic. <br />
             We bring together trusted service providers across multiple wellness categories, so you can find the right <br />
-            support for your mind, body, and lifestyle — all in one place.
+            support for your mind, body, and lifestyle — all in one place. Whether you’re seeking expert guidance, <br />
+            personalized care, or just a safe space to focus on yourself, Morselv is here for you.
           </p>
 
           {/* Full-width beige band with properly centered images */}
@@ -301,39 +302,41 @@ export default function AboutMorSelv() {
           </div>
         </section>
 
-        {/* STORY Mobile */}
-        <section className="mt-10">
-          <div className="relative inline-block w-full text-center">
-            <h2 className="relative z-10 text-[28px] font-bold">OUR STORY</h2>
-            <svg 
-              xmlns="http://www.w3.org/2000/svg" 
-              width="140" 
-              height="28" 
-              viewBox="0 0 215 39" 
-              fill="none"
-              className="absolute z-0 -bottom-0 left-1/2 -translate-x-1/2 w-[140px] h-[28px] pointer-events-none ml-[60px]"
-            >
-              <path d="M10.4116 0H215L204.588 39H0L10.4116 0Z" fill="#FECD8C" />
-            </svg>
-          </div>
-          <p className="mt-4 text-[16px] leading-[22px] text-center px-2">
-            Morselv was created with one mission — to make women's wellness simple, accessible, and truly holistic. 
-            We bring together trusted service providers across multiple wellness categories.
-          </p>
-          
-          {/* 7-image grid for mobile */}
-          <div className="mt-6 w-full bg-[#F3D0A1] py-6 px-4">
-            <div className="grid grid-cols-3 gap-3 h-[400px]">
-              <div className="bg-[#D9D9D9] rounded-[20px] row-span-2" />
-              <div className="bg-[#D9D9D9] rounded-[20px] col-span-2" />
-              <div className="bg-[#D9D9D9] rounded-[20px]" />
-              <div className="bg-[#D9D9D9] rounded-[20px]" />
-              <div className="bg-[#D9D9D9] rounded-[20px] col-span-2" />
-              <div className="bg-[#D9D9D9] rounded-[20px]" />
-              <div className="bg-[#D9D9D9] rounded-[20px]" />
+        {/* STORY Mobile - Full width orange box with fixed internal grid */}
+          <section className="mt-10">
+            <div className="relative inline-block w-full text-center">
+              <h2 className="relative z-10 text-[28px] font-bold">OUR STORY</h2>
+              <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                width="140" 
+                height="28" 
+                viewBox="0 0 215 39" 
+                fill="none"
+                className="absolute z-0 -bottom-0 left-1/2 -translate-x-1/2 w-[140px] h-[28px] pointer-events-none ml-[60px]"
+              >
+                <path d="M10.4116 0H215L204.588 39H0L10.4116 0Z" fill="#FECD8C" />
+              </svg>
             </div>
-          </div>
-        </section>
+            <p className="mt-4 text-[16px] leading-[22px] text-center px-2">
+              Morselv was created with one mission — to make women’s wellness simple, accessible, and truly holistic. We bring together trusted service providers across multiple wellness categories, so you can find the right support for your mind, body, and lifestyle — all in one place. Whether you’re seeking expert guidance, personalized care, or just a safe space to focus on yourself, Morselv is here for you.
+            </p>
+
+            {/* Full width orange container with centered content */}
+            <div className="mt-6 w-screen bg-[#F3D0A1] py-6 -mx-4">
+              {/* Inner container matching the page width */}
+              <div className="w-full px-4">
+                <div className="grid grid-cols-3 gap-3 h-[400px]">
+                  <div className="bg-[#D9D9D9] rounded-[20px] row-span-2" />
+                  <div className="bg-[#D9D9D9] rounded-[20px] col-span-2" />
+                  <div className="bg-[#D9D9D9] rounded-[20px]" />
+                  <div className="bg-[#D9D9D9] rounded-[20px]" />
+                  <div className="bg-[#D9D9D9] rounded-[20px] col-span-2" />
+                  <div className="bg-[#D9D9D9] rounded-[20px]" />
+                  <div className="bg-[#D9D9D9] rounded-[20px]" />
+                </div>
+              </div>
+            </div>
+          </section>
 
         {/* MISSION Mobile */}
         <section className="mt-10">
@@ -356,7 +359,7 @@ export default function AboutMorSelv() {
             </h3>
           </div>
           <p className="mt-3 text-[16px] leading-[22px]">
-            A trusted space to access holistic support and feel empowered without barriers or guilt.
+            To create a trusted space where women can access holistic wellness support, connect with experts who truly care, and feel empowered to prioritize their well-being without barriers or guilt.
           </p>
 
           <div className="mt-6 grid grid-cols-2 gap-4">
@@ -383,45 +386,47 @@ export default function AboutMorSelv() {
           </div>
         </section>
 
-        {/* HOW IT WORKS Mobile */}
-        <section className="mt-12 bg-[#FFF4E5] py-10 px-4">
-          <div className="relative text-center">
-            <h3 className="relative z-10 text-[32px] font-bold">How it Works</h3>
-            <svg 
-              xmlns="http://www.w3.org/2000/svg" 
-              width="100" 
-              height="28" 
-              viewBox="0 0 215 39" 
-              fill="none"
-              className="absolute z-0 -bottom-0 left-1/2 -translate-x-1/2 w-[140px] h-[28px] pointer-events-none ml-[70px]"
-            >
-              <path d="M10.4116 0H215L204.588 39H0L10.4116 0Z" fill="#FECD8C" />
-            </svg>
-          </div>
-
-          <div className="mt-8 flex flex-col items-center gap-8">
-            {[1, 2, 3].map((n, i) => (
-              <div key={n} className="w-full max-w-[360px] text-center">
-                <div className="inline-flex rounded-[60px] border-[4px] border-[#FECD8C] px-[21px] py-[10px]">
-                  <span className="text-[34px] font-bold text-[#FECD8C]">{n}.</span>
-                </div>
-                <div className="mt-3 text-[20px] font-bold">{["EXPLORE", "SELECT", "BOOK"][i]}</div>
-                <div className="mt-2 text-[14px] leading-[18px]">
-                  {i === 0 && "Discover a variety of trusted wellness services — from fitness to mental health — all in one place."}
-                  {i === 1 && "Choose personalized options that fit your needs and lifestyle."}
-                  {i === 2 && "Book your session securely and begin your wellness journey."}
-                </div>
-              </div>
-            ))}
-          </div>
-
-          <div className="mt-8 flex justify-center">
-            <button className="inline-flex h-[56px] items-center gap-2 rounded-[10px] bg-[#121212] px-8 text-white text-[18px] font-medium">
-              Explore Mor-Selv
-              <svg xmlns="http://www.w3.org/2000/svg" width="13" height="25" viewBox="0 0 13 25" fill="none">
-                <path fillRule="evenodd" clipRule="evenodd" d="M11.003 13.2406L4.87461 19.1333L3.34277 17.6604L8.70527 12.5042L3.34277 7.34792L4.87461 5.875L11.003 11.7677C11.2061 11.9631 11.3202 12.228 11.3202 12.5042C11.3202 12.7804 11.2061 13.0453 11.003 13.2406Z" fill="white" />
+        {/* HOW IT WORKS Mobile - full width pink box */}
+        <section className="mt-12 w-screen bg-[#FFF4E5] py-10 -mx-4">
+          <div className="px-4">
+            <div className="relative text-center">
+              <h3 className="relative z-10 text-[32px] font-bold">How it Works</h3>
+              <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                width="100" 
+                height="28" 
+                viewBox="0 0 215 39" 
+                fill="none"
+                className="absolute z-0 -bottom-0 left-1/2 -translate-x-1/2 w-[140px] h-[28px] pointer-events-none ml-[70px]"
+              >
+                <path d="M10.4116 0H215L204.588 39H0L10.4116 0Z" fill="#FECD8C" />
               </svg>
-            </button>
+            </div>
+
+            <div className="mt-8 flex flex-col items-center gap-8">
+              {[1, 2, 3].map((n, i) => (
+                <div key={n} className="w-full max-w-[360px] text-center">
+                  <div className="inline-flex rounded-[60px] border-[4px] border-[#FECD8C] px-[21px] py-[10px]">
+                    <span className="text-[34px] font-bold text-[#FECD8C]">{n}.</span>
+                  </div>
+                  <div className="mt-3 text-[20px] font-bold">{["EXPLORE", "SELECT", "BOOK"][i]}</div>
+                  <div className="mt-2 text-[14px] leading-[18px]">
+                    {i === 0 && "Discover a variety of trusted wellness services — from fitness to mental health — all in one place."}
+                    {i === 1 && "Find the provider who understands your needs and aligns with your wellness goals."}
+                    {i === 2 && "Schedule your session instantly, and start your journey toward better well-being."}
+                  </div>
+                </div>
+              ))}
+            </div>
+            
+            <div className="mt-8 flex justify-center">
+              <button className="inline-flex h-[56px] items-center gap-2 rounded-[10px] bg-[#121212] px-8 text-white text-[18px] font-medium">
+                Explore Mor-Selv
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="25" viewBox="0 0 13 25" fill="none">
+                  <path fillRule="evenodd" clipRule="evenodd" d="M11.003 13.2406L4.87461 19.1333L3.34277 17.6604L8.70527 12.5042L3.34277 7.34792L4.87461 5.875L11.003 11.7677C11.2061 11.9631 11.3202 12.228 11.3202 12.5042C11.3202 12.7804 11.2061 13.0453 11.003 13.2406Z" fill="white" />
+                </svg>
+              </button>
+            </div>
           </div>
         </section>
       </div>
